@@ -1,0 +1,113 @@
+.login{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.login-form h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login-form input{
+    background: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form input::placeholder{
+    color: #8c8c8c;
+}
+
+.login-form button{
+    background: #e50914;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.login-form button:hover{
+    background: #c11119;
+}
+
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.form-help .remember{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-help input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.form-help label{
+    cursor: pointer;
+}
+
+.form-help .need-help p{
+    cursor: pointer;
+}
+
+.form-help .need-help p:hover{
+    text-decoration: underline;
+}
+
+.form-switch{
+    margin-top: 20px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.form-switch span{
+    color: #fff;
+    cursor: pointer;
+    margin-left: 6px;
+    font-weight: 500;
+}
