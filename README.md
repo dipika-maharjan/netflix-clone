@@ -1,16 +1,60 @@
-# React + Vite
+# Netflix Clone UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a **UI recreation of Netflix** using React.js.  
+The goal is to build a **pixel-perfect, responsive interface** similar to the original platform, showcasing movies, trailers, and navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive layout for mobile and desktop
+- Pixel-perfect design based on Netflix UI
+- Navigation bar with links
+- Home page with **Popular Now** section
+- Movie cards with trailer preview
+- Footer component
+- Lazy loading of images for performance
+- Sign In / Sign Up UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Challenges
+- Recreating the Netflix UI pixel-perfect
+- Ensuring mobile responsiveness
+- Implementing lazy loading for images and components
+- Handling dynamic display of movie cards and trailers
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **Libraries:** React Router
+- **API:** TMDB API for fetching movies
+
+---
+
+## Installation
+1. Clone the repository  
+```bash
+git clone https://github.com/dipika-maharjan/netflix-clone.git
+
+2. Install dependencies
+cd REPO
+npm install
+
+3. Run the app
+npm run dev
+
+## Screenshots
+
+### Home Page
+![Home Page](assets/screenshots/netflix2.JPG)
+
+### Navbar
+![Navbar](assets/screenshots/netflix1.JPG)
+
+### Footer
+![Footer](assets/screenshots/netflix3.JPG)
+
+### Trailer Video Player
+![Trailer Player](assets/screenshots/netflix4.JPG)
