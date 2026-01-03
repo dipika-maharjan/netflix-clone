@@ -14,11 +14,11 @@
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
 
 .navbar-left img{
     width: 90px;
+    height: auto;
 }
 
 .navbar-left ul{
@@ -35,12 +35,14 @@
 
 .navbar-right .icons{
     width: 20px;
+    height: auto;
     cursor: pointer;
 }
 
 .navbar-right .profile{
     border-radius: 4px;
     width: 35px;
+    height: auto;
 }
 
 .navbar-profile{
@@ -71,4 +73,56 @@
 
 .navbar-profile:hover .dropdown{
     display: block;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 16px 4%;
+        gap: 15px;
+    }
+    
+    .navbar-left {
+        gap: 30px;
+    }
+    
+    .navbar-left img {
+        width: 70px;
+    }
+    
+    .navbar-left ul {
+        gap: 15px;
+        font-size: 12px;
+    }
+    
+    .navbar-right {
+        gap: 15px;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 12px 4%;
+    }
+    
+    .navbar-left {
+        gap: 15px;
+    }
+    
+    .navbar-left img {
+        width: 60px;
+    }
+    
+    .navbar-left ul {
+        display: none;
+    }
+    
+    .navbar-right {
+        gap: 10px;
+    }
+    
+    .navbar-right .icons {
+        width: 18px;
+    }
 }

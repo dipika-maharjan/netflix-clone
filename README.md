@@ -48,14 +48,14 @@ npm run dev
 ## Screenshots
 
 ### Navbar
-![Navbar](src/assets/screenshots/netflix1.JPG)
+![Navbar](./public/screenshots/netflix1.JPG)
 
 ### Home Page
-![Home Page](src/assets/screenshots/netflix2.JPG)
+![Home Page](./public/screenshots/netflix2.JPG)
 
 ### Footer
-![Footer](src/assets/screenshots/netflix3.JPG)
+![Footer](./public/screenshots/netflix3.JPG)
 
 ### Trailer Video Player
-![Trailer Player](src/assets/screenshots/netflix4.JPG)
+![Trailer Player](./public/screenshots/netflix4.JPG)
 

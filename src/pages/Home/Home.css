@@ -1,18 +1,27 @@
 .hero{
     position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: flex-end;
 }
 
 .banner-img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
 
 .hero-caption{
-    position: absolute;
+    position: relative;
     width: 100%;
     padding-left: 6%;
-    bottom: 0;
+    padding-bottom: 50px;
+    z-index: 1;
 }
 
 .caption-img{
@@ -25,16 +34,19 @@
     font-size: 18px;
     max-width: 700px;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .hero-btns{
     display: flex;
     gap: 10px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .hero-btns .btn img{
     width: 24px;
+    height: auto;
 }
 
 .hero-btns .btn{
@@ -49,6 +61,7 @@
     align-items: center;
     background: white;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .hero-btns .btn.dark-btn{
@@ -66,4 +79,84 @@
 
 .more-cards{
     padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 40vh;
+    }
+    
+    .hero-caption {
+        padding-left: 4%;
+        padding-bottom: 30px;
+    }
+    
+    .caption-img {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-caption p {
+        font-size: 16px;
+        max-width: 500px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-btns {
+        margin-bottom: 30px;
+    }
+    
+    .more-cards {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    .hero {
+        min-height: 35vh;
+    }
+    
+    .banner-img {
+        mask-image: linear-gradient(to right, transparent, black 50%);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 50%);
+    }
+    
+    .hero-caption {
+        padding-left: 4%;
+        padding-bottom: 20px;
+    }
+    
+    .caption-img {
+        max-width: 200px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-caption p {
+        font-size: 14px;
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
+    
+    .hero-btns {
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-btns .btn {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+    
+    .hero-btns .btn img {
+        width: 20px;
+    }
+    
+    .more-cards {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
 }
