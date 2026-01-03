@@ -47,14 +47,15 @@ npm run dev
 
 ## Screenshots
 
-### Home Page
-![Home Page](src/assets/screenshots/netflix2.JPG)
-
 ### Navbar
-![Navbar](src/assets/screenshots/netflix1.JPG)
+![Navbar](https://raw.githubusercontent.com/dipika-maharjan/netflix-clone/main/src/assets/screenshots/netflix1.JPG)
+
+### Home Page
+![Home Page](https://raw.githubusercontent.com/dipika-maharjan/netflix-clone/main/src/assets/screenshots/netflix2.JPG)
 
 ### Footer
-![Footer](src/assets/screenshots/netflix3.JPG)
+![Footer](https://raw.githubusercontent.com/dipika-maharjan/netflix-clone/main/src/assets/screenshots/netflix3.JPG)
 
 ### Trailer Video Player
-![Trailer Player](src/assets/screenshots/netflix4.JPG)
+![Trailer Player](https://raw.githubusercontent.com/dipika-maharjan/netflix-clone/main/src/assets/screenshots/netflix4.JPG)
+
